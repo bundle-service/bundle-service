@@ -713,14 +713,149 @@ function App() {
               </div>
               
               <div className="text-sm text-gray-600 animate-fade-in-up">
-                {activeTab === 'privacy' && (
-                  <div>
-                    <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">Privacy Policy</h3>
-                    <p className="mb-3">We respect your privacy and are committed to protecting your personal information with advanced AI-powered security.</p>
-                    <p className="mb-3">Our intelligent systems collect only necessary data to optimize your experience and improve service quality.</p>
-                    <p>Your data is never shared with third parties without explicit consent and is protected by end-to-end encryption.</p>
-                  </div>
-                )}
+               {activeTab === 'privacy' && (
+    <div>
+      <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">
+        Privacy Policy
+      </h3>
+      <p className="mb-3">
+        At Bundle Service, we are committed to safeguarding your personal data
+        with the utmost transparency and integrity. Our Privacy Policy is designed
+        to inform you how we collect, use, and protect your personal information
+        in strict accordance with our business model, Google’s business practice
+        requirements, and international data protection laws.
+      </p>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Information We Collect</h4>
+      <p className="mb-3">
+        Bundle Service collects information necessary to provide and manage our
+        services effectively. We obtain:
+      </p>
+      <ul className="list-disc list-inside mb-3">
+        <li>
+          <strong>Personal Information:</strong> your name, address, phone number,
+          and email when you register for services, purchase a plan, or make inquiries.
+        </li>
+        <li>
+          <strong>Financial Information:</strong> credit card details or banking
+          information when you pay for services.
+        </li>
+        <li>
+          <strong>Usage Data:</strong> information about your interactions with our
+          website (IP addresses, browser type, pages visited, time spent, device type)
+          to improve your experience and monitor site performance.
+        </li>
+        <li>
+          <strong>Service Data:</strong> data related to the service you receive
+          through Bundle Service (account numbers, service type, technical support logs),
+          collected via forms, cookies, and interactions with our platform or customer
+          service team.
+        </li>
+      </ul>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Why We Collect Information</h4>
+      <p className="mb-3">We collect data to:</p>
+      <ul className="list-disc list-inside mb-3">
+        <li>
+          <strong>Provide Services:</strong> activate new services, process orders,
+          plan upgrades, and execute account changes like cancellations.
+        </li>
+        <li>
+          <strong>Customer Support:</strong> use your contact and service data to provide
+          technical support and resolve issues.
+        </li>
+        <li>
+          <strong>Billing and Payments:</strong> process payments for services, including
+          our execution charges (clearly disclosed on our site, ranging from $49.99 to $199.99).
+        </li>
+        <li>
+          <strong>Improvement and Marketing:</strong> with your consent, use non-identifying
+          data to improve our services, assess site traffic, and offer promotions aligned
+          with your preferences. We ensure full transparency and compliance with Google’s guidelines.
+        </li>
+      </ul>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Third-Party Service Providers</h4>
+      <p className="mb-3">
+        Bundle Service partners with third-party vendors—including payment processors and
+        JNA-certified providers such as AT&T, Verizon, Spectrum, Xfinity, Dish, and others.
+        While we require them to adhere to strict privacy standards, please review their
+        privacy policies for details on their data-handling practices.
+      </p>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Transparency in Pricing and Billing</h4>
+      <p className="mb-3">
+        Bundle Service prides itself on clear, up-front pricing in compliance with Google’s Ads Policy:
+      </p>
+      <ul className="list-disc list-inside mb-3">
+        <li>
+          <strong>Execution Fees:</strong> for new connections, plan changes, or cancellations,
+          range from $49.99 to $199.99, displayed before you commit.
+        </li>
+        <li>
+          <strong>Separate Billing:</strong> execution fees are separate from your service provider’s
+          charges (Verizon, Xfinity, Spectrum, etc.), detailed in your provider agreement.
+        </li>
+        <li>
+          <strong>Subscription Fees:</strong> all recurring charges are explained in advance to avoid confusion.
+        </li>
+      </ul>
+      <p className="mb-3">
+        We never use misleading or dishonest pricing practices—every cost is transparent before
+        you make a commitment.
+      </p>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Data Security</h4>
+      <p className="mb-3">We take rigorous measures to secure your personal information:</p>
+      <ul className="list-disc list-inside mb-3">
+        <li>
+          <strong>Encryption:</strong> all sensitive data is encrypted during transmission and storage.
+        </li>
+        <li>
+          <strong>Access Control:</strong> only authorized employees with confidentiality agreements can access your data.
+        </li>
+        <li>
+          <strong>Secure Payment Gateways:</strong> we use industry-standard, third-party processors to handle transactions.
+        </li>
+      </ul>
+      <p className="mb-3">
+        In the event of a data breach, Bundle Service will notify you and relevant authorities as legally required.
+      </p>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Your Rights and Control</h4>
+      <p className="mb-3">You have the right to:</p>
+      <ul className="list-disc list-inside mb-3">
+        <li>
+          <strong>Access and Correct Your Data:</strong> request to view, update, or correct your personal information at any time.
+        </li>
+        <li>
+          <strong>Request Data Deletion:</strong> ask for erasure of your personal data when it’s no longer needed for the services you use.
+        </li>
+        <li>
+          <strong>Opt-Out of Marketing:</strong> unsubscribe from marketing communications at any time.
+        </li>
+        <li>
+          <strong>Data Portability:</strong> request your personal data in a machine-readable format.
+        </li>
+      </ul>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Compliance with Google’s Ad Policies</h4>
+      <p className="mb-3">
+        Bundle Service strictly follows Google’s advertising policies to ensure honest, transparent,
+        and compliant practices. We do not misrepresent our services, affiliations, or pricing,
+        nor engage in deceptive data-collection or phishing practices.
+      </p>
+
+      <h4 className="text-gray-800 font-semibold mb-2">Changes to Our Privacy Policy</h4>
+      <p className="mb-3">
+        Bundle Service may modify this policy from time to time. We will post updates on this page
+        and notify you of significant changes via email or site notice.
+      </p>
+
+      <p>📞 Phone: +1 (888) 510-8078</p>
+    </div>
+  )}
+
                 {activeTab === 'refund' && (
                   <div>
                     <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">Refund Policy</h3>
