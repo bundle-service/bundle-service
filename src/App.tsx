@@ -608,9 +608,13 @@ function App() {
                     placeholder="Tell us about your connectivity needs..."
                   ></textarea>
                 </div>
-                <button className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-2xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-xl animate-pulse-glow">
-                  Send Message
-                </button>
+               <button
+  onClick={() => window.location.href = 'tel:+18885108078'}
+  className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-2xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-xl animate-pulse-glow"
+>
+  Send Message
+</button>
+
               </form>
             </div>
             
@@ -622,7 +626,10 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-gray-800 font-semibold text-lg animate-text-glow">Intelligent Support</h3>
-                    <p className="text-gray-600 animate-fade-in">(555) 123-4567</p>
+                   <a href="tel:+18885108078" className="text-gray-600 animate-fade-in">
+  (888) 510-8078
+</a>
+
                   </div>
                 </div>
                 
@@ -630,19 +637,11 @@ function App() {
                   <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center shadow-lg animate-spin-slow">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
-                  <div>
-                    <h3 className="text-gray-800 font-semibold text-lg animate-text-glow">Smart Contact</h3>
-                    <p className="text-gray-600 animate-fade-in">hello@bundleservice.ai</p>
-                  </div>
                 </div>
                 
                 <div className="flex items-center space-x-4 animate-slide-in-left delay-200">
                   <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center shadow-lg animate-spin-slow">
                     <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-gray-800 font-semibold text-lg animate-text-glow">Innovation Center</h3>
-                    <p className="text-gray-600 animate-fade-in">123 Future Street, Suite 100<br />Tech City, State 12345</p>
                   </div>
                 </div>
               </div>
@@ -655,8 +654,7 @@ function App() {
                     <span className="animate-pulse">24/7 Available</span>
                   </div>
                   <div className="flex justify-between animate-slide-in-left delay-100">
-                    <span>Human Experts</span>
-                    <span>8:00 AM - 8:00 PM</span>
+              
                   </div>
                   <div className="flex justify-between animate-slide-in-left delay-200">
                     <span>Emergency Support</span>
