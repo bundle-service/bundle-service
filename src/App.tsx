@@ -148,27 +148,31 @@ function App() {
   ];
 
   const faqs = [
-    {
-      question: "How does the AI-powered network optimization work?",
-      answer: "Our intelligent system continuously monitors your usage patterns and automatically adjusts bandwidth allocation, prioritizes critical applications, and optimizes performance for your specific needs."
-    },
-    {
-      question: "What makes your installation process different?",
-      answer: "We use advanced planning algorithms to schedule optimal installation times, and our technicians arrive with pre-configured equipment tailored to your home's specific requirements."
-    },
-    {
-      question: "Can I customize my smart entertainment experience?",
-      answer: "Absolutely! Our AI learns your preferences and creates personalized content recommendations, custom channel lineups, and even suggests optimal viewing times based on your schedule."
-    },
-    {
-      question: "How does the intelligent security system protect my privacy?",
-      answer: "All AI processing happens locally on your devices with end-to-end encryption. We never store personal data in the cloud, and you maintain complete control over your privacy settings."
-    },
-    {
-      question: "What business solutions do you offer?",
-      answer: "We provide enterprise-grade connectivity with AI-driven network management, predictive maintenance, dedicated support teams, and scalable solutions for businesses of any size."
-    }
-  ];
+  {
+    question: "What services does Bundle Service offer?",
+    answer: "Bundle Service provides high-speed internet, cellular plans, bundled connectivity packages, and streaming services as a certified JNA dealer for top providers."
+  },
+  {
+    question: "Which companies can I sign up with through Bundle Service?",
+    answer: "As a certified JNA dealer, Bundle Service connects you to providers such as AT&T, Verizon, Spectrum, Comcast Xfinity, Frontier, HughesNet, CenturyLink, Paramount+, SHOWTIME®, and more."
+  },
+  {
+    question: "Is Bundle Service a direct service provider?",
+    answer: "No. Bundle Service is an authorized dealer and certified retailer that facilitates connections to third-party providers but does not directly deliver the internet or streaming service."
+  },
+  {
+    question: "What are Bundle Service’s execution charges?",
+    answer: "Our execution fees range from $49.99 to $199.99, depending on the request (installations, plan changes, bill payments, cancellations). These are separate from your provider’s service charges."
+  },
+  {
+    question: "Why are these execution charges separate from my provider’s billing?",
+    answer: "Bundle Service handles the administrative work—scheduling, setup, upgrades, support—independently. Your provider’s billing covers the actual service usage and subscription fees."
+  },
+  {
+    question: "How do I contact Bundle Service for support?",
+    answer: "You can reach our support team via the contact form on our website or by calling (888) 510-8078. We’re here to help with any inquiries or issues."
+  }
+];
 
   const whyUs = [
     {
