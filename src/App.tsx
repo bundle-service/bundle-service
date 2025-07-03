@@ -856,22 +856,133 @@ function App() {
     </div>
   )}
 
-                {activeTab === 'refund' && (
-                  <div>
-                    <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">Refund Policy</h3>
-                    <p className="mb-3">We offer a 30-day satisfaction guarantee on all intelligent connectivity services.</p>
-                    <p className="mb-3">Installation fees are refundable if service is cancelled within 7 days of activation.</p>
-                    <p>Equipment must be returned in original condition for full refund processing.</p>
-                  </div>
-                )}
-                {activeTab === 'terms' && (
-                  <div>
-                    <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">Terms & Conditions</h3>
-                    <p className="mb-3">By using our intelligent services, you agree to our terms and AI-powered optimization features.</p>
-                    <p className="mb-3">Service quality is subject to network availability and intelligent system performance.</p>
-                    <p>We reserve the right to modify terms with 30 days advance notice to all customers.</p>
-                  </div>
-                )}
+             {activeTab === 'refund' && (
+  <div>
+    <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">Refund Policy</h3>
+
+    <p className="font-semibold mb-2">General Refund Policy:</p>
+    <p className="mb-3">
+      Bundle Service strives to ensure the satisfaction of our customers. However, as a distributor of third-party services, our refund policies are aligned with the policies of the service providers we represent. Refunds may be issued under the following circumstances:
+    </p>
+    <ul className="list-disc list-inside mb-4">
+      <li>
+        <span className="font-semibold">Cancellation Before Installation:</span> If you cancel your service request before the service installation, you may be eligible for a full refund of any upfront payments made to Bundle Service.
+      </li>
+      <li className="mt-2">
+        <span className="font-semibold">Service Issues:</span> If there is a verifiable issue with the service installation or activation that is directly attributable to Bundle Service, we will work to rectify the issue or, in rare cases, process a refund.
+      </li>
+      <li className="mt-2">
+        <span className="font-semibold">Non-Refundable Items:</span> Fees associated with the processing of services, including installation charges, activation fees, and administrative costs, are non-refundable.
+      </li>
+    </ul>
+
+    <p className="font-semibold mb-2">Refund Request Process:</p>
+    <p className="mb-2">To request a refund, you must:</p>
+    <ol className="list-decimal list-inside mb-4">
+      <li>
+        <span className="font-semibold">Submit a Request:</span> Contact our customer service team within 14 days of the service issue to initiate a refund request.
+      </li>
+      <li className="mt-2">
+        <span className="font-semibold">Provide Documentation:</span> You may be required to provide documentation or information regarding the service issue.
+      </li>
+      <li className="mt-2">
+        <span className="font-semibold">Refund Timelines:</span> Approved refunds will be processed within 7–14 business days, depending on your payment method and financial institution.
+      </li>
+    </ol>
+
+    <p>
+      For any inquiries regarding our refund policy, please contact our support team at <a href="tel:8885108078" className="text-blue-600 underline">(888) 510-8078</a>.
+    </p>
+  </div>
+)}
+
+               {activeTab === 'terms' && (
+  <div>
+    <h3 className="text-gray-800 font-semibold mb-3 animate-text-glow">Terms &amp; Conditions</h3>
+    
+    <p className="mb-3">
+      Welcome to <strong>Bundle Service</strong>. These Terms and Conditions (“Terms”) govern your use of our website, services, and all related interactions between you and <strong>Bundle Service</strong>. By accessing our website or utilizing our services, you agree to comply with and be bound by these Terms. Please read them carefully before proceeding.
+    </p>
+    <p className="mb-4">
+      If you do not agree with any of the Terms outlined below, please do not use our services or this website.
+    </p>
+    <hr className="mb-4" />
+    
+    <h4 className="font-semibold mb-2">1. Definitions</h4>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>“Bundle Service”</strong> refers to our company, an authorized dealer providing intermediary services between consumers and third-party service providers, including but not limited to internet, cellular, streaming, and bundled services.</li>
+      <li><strong>“User”, “you”, or “your”</strong> refers to any person or entity accessing our website or using our services.</li>
+      <li><strong>“Services”</strong> refers to any support or execution services provided by <strong>Bundle Service</strong>, including but not limited to setting up new connections, plan upgrades, account cancellations, bill payments, and related support.</li>
+      <li><strong>“Third-Party Service Providers”</strong> refers to external companies and service providers with whom <strong>Bundle Service</strong> has partnerships to offer their services to customers.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">2. Scope of Services</h4>
+    <p className="mb-2">
+      <strong>Bundle Service</strong> offers execution services on behalf of third-party service providers. We assist in tasks such as new connection setup, billing assistance, account upgrades, and other support-related activities. While <strong>Bundle Service</strong> facilitates these services, the actual delivery of internet, streaming, or cellular services is provided by third-party service providers.
+    </p>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>Quality Disclaimer:</strong> <strong>Bundle Service</strong> is not responsible for the quality, uptime, or reliability of the services delivered by third-party service providers.</li>
+      <li><strong>Issue Resolution:</strong> All service-related issues, outages, or quality concerns should be addressed directly with the relevant service provider.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">3. Account Responsibilities</h4>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>Account Creation:</strong> To use our services, you may be required to create an account on our website. You agree to provide accurate and complete information when setting up an account and to keep your account information updated.</li>
+      <li><strong>Account Security:</strong> You are responsible for maintaining the confidentiality of your account credentials and for all activities conducted under your account. <strong>Bundle Service</strong> will not be liable for any losses resulting from unauthorized use of your account.</li>
+      <li><strong>Accurate Information:</strong> You agree to provide correct and up-to-date information, including your billing and contact details. Providing false or incorrect information may result in the suspension or termination of your account.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">4. Payments and Fees</h4>
+    <p className="mb-2">
+      <strong>Bundle Service</strong> charges execution fees for the administrative services it provides. These fees are separate from the charges billed by third-party service providers.
+    </p>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>Execution Fees:</strong> The fees charged by <strong>Bundle Service</strong> cover the execution and facilitation of tasks such as connection setup, plan changes, and account management. These fees will be disclosed before you confirm a service request.</li>
+      <li><strong>Third-Party Billing:</strong> The charges billed by third-party service providers are outside of <strong>Bundle Service</strong>’s control, and you are responsible for paying these charges directly to the provider according to their billing terms.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">5. Service Requests</h4>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>Service Execution:</strong> <strong>Bundle Service</strong> will make reasonable efforts to ensure the timely execution of your requests, such as new connections or upgrades. However, we cannot guarantee a specific timeframe for completion as it may depend on third-party providers’ processes.</li>
+      <li><strong>Cancellations:</strong> If you wish to cancel a service request, you must notify us immediately. Cancellations may only be possible if the request has not yet been executed. For more details, please refer to our Refund Policy.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">6. Limitations of Liability</h4>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>Third-Party Provider Failures:</strong> <strong>Bundle Service</strong> is not responsible for any service disruptions, quality issues, or delays caused by third-party service providers. Any such issues must be taken up with the respective provider.</li>
+      <li><strong>Accuracy of Information:</strong> <strong>Bundle Service</strong> does its best to ensure the accuracy of the information provided on our website. However, we do not guarantee that the information is free of errors, and we reserve the right to correct any inaccuracies or omissions.</li>
+      <li><strong>Service Delays:</strong> <strong>Bundle Service</strong> will not be liable for any delays in service execution caused by circumstances outside our control, including but not limited to technical difficulties, third-party delays, or force majeure events.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">7. Use of the Website</h4>
+    <ul className="list-disc list-inside mb-4">
+      <li><strong>Prohibited Activities:</strong> You agree not to engage in any unlawful, harmful, or malicious activity while using our website, including but not limited to hacking, transmitting viruses, or engaging in fraudulent behavior.</li>
+      <li><strong>Intellectual Property:</strong> All content on this website, including text, graphics, logos, and software, is the intellectual property of <strong>Bundle Service</strong> or our licensors. You may not copy, distribute, or otherwise use this content without express permission.</li>
+    </ul>
+    
+    <h4 className="font-semibold mb-2">8. Privacy Policy</h4>
+    <p className="mb-4">
+      Your use of the <strong>Bundle Service</strong> website and services is subject to our Privacy Policy, which outlines how we collect, use, and protect your personal data.
+    </p>
+    
+    <h4 className="font-semibold mb-2">9. Modifications to Terms</h4>
+    <p className="mb-4">
+      <strong>Bundle Service</strong> reserves the right to modify or update these Terms at any time without prior notice. Any changes to these Terms will be posted on this page, and the updated version will take effect immediately upon posting. We encourage you to review these Terms periodically to stay informed of any updates.
+    </p>
+    
+    <h4 className="font-semibold mb-2">10. Termination</h4>
+    <p className="mb-4">
+      <strong>Bundle Service</strong> reserves the right to suspend or terminate your account or access to our services at our discretion, including but not limited to violations of these Terms, fraudulent activity, or failure to make payments.
+    </p>
+    
+    <h4 className="font-semibold mb-2">11. Contact Us</h4>
+    <p>
+      If you have any questions about these Terms and Conditions, or if you need assistance regarding our services, you can reach out to us at:<br/>
+      <strong>📞 (888) 510-8078</strong>
+    </p>
+  </div>
+)}
+
               </div>
             </div>
           )}
