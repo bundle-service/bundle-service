@@ -222,9 +222,13 @@ function App() {
             </nav>
 
             <div className="hidden md:flex items-center space-x-4">
-              <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2.5 rounded-xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg animate-pulse-glow">
-                Sign Up
-              </button>
+             <button
+  onClick={() => window.location.href = 'tel:+18885108078'}
+  className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2.5 rounded-xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg animate-pulse-glow"
+>
+  Contact Us
+</button>
+
             </div>
 
             <button 
@@ -245,9 +249,13 @@ function App() {
                 <a href="#services" className="text-gray-600 hover:text-orange-600 transition-colors font-medium animate-fade-in delay-100">How It Works</a>
                 <a href="#plans" className="text-gray-600 hover:text-orange-600 transition-colors font-medium animate-fade-in delay-200">Library</a>
                 <a href="#contact" className="text-gray-600 hover:text-orange-600 transition-colors font-medium animate-fade-in delay-300">Log In</a>
-                <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2.5 rounded-xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 mt-4 shadow-lg animate-fade-in delay-400">
-                  Sign Up
-                </button>
+              <button
+  onClick={() => window.location.href = 'tel:+18885108078'}
+  className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-2.5 rounded-xl font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg animate-pulse-glow"
+>
+  Contact Us
+</button>
+
               </nav>
             </div>
           </div>
@@ -308,10 +316,14 @@ function App() {
             </div>
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 animate-fade-in-up delay-300">
-              <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-10 py-4 rounded-2xl text-lg font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-3 animate-pulse-glow">
-                <span>Get Started</span>
-                <ArrowRight className="w-5 h-5 animate-bounce-x" />
-              </button>
+            <button
+  onClick={() => window.location.href = 'tel:+18885108078'}
+  className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-10 py-4 rounded-2xl text-lg font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-3 animate-pulse-glow"
+>
+  <span>Get Started</span>
+  <ArrowRight className="w-5 h-5 animate-bounce-x" />
+</button>
+
               <button className="bg-white/80 backdrop-blur-xl border-2 border-orange-300 text-gray-700 px-10 py-4 rounded-2xl text-lg font-semibold hover:bg-white hover:border-orange-400 transition-all duration-300 flex items-center space-x-3 shadow-lg animate-float">
                 <Play className="w-5 h-5 animate-spin-slow" />
                 <span>Watch Demo</span>
