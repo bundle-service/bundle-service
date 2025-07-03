@@ -315,7 +315,7 @@ function App() {
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up">
                 Experience the future of internet and entertainment with AI-powered optimization, 
-                seamless integration, and intelligent performance that adapts to your needs.
+                seamless integration, and intelligent performance that adapts to your needs(888) 510-8078
               </p>
             </div>
             
